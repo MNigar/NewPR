@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5f4ffc52-6104-42db-8df6-fd4d125e7ef6</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>FlaskWebProject1</Name>
+    <RootNamespace>FlaskWebProject1</RootNamespace>
+    <InterpreterId>MSBuild|Projct|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="FlaskWebProject1\__init__.py" />
+    <Compile Include="FlaskWebProject1\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlaskWebProject1\" />
+    <Folder Include="FlaskWebProject1\static\" />
+    <Folder Include="FlaskWebProject1\static\content\" />
+    <Folder Include="FlaskWebProject1\static\fonts\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\css\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\banner\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\details\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\hero\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shopping-cart\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\js\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\" />
+    <Folder Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\" />
+    <Folder Include="FlaskWebProject1\static\scripts\" />
+    <Folder Include="FlaskWebProject1\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\about.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\blog-details.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\blog.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\checkout.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\contact.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\bootstrap.min.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\elegant-icons.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\font-awesome.min.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\magnific-popup.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\nice-select.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\owl.carousel.min.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\slicknav.min.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\style.css" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\css\style.css.map" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\ElegantIcons.eot" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\ElegantIcons.svg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\ElegantIcons.ttf" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\ElegantIcons.woff" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\fontawesome-webfont.eot" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\fontawesome-webfont.svg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\fontawesome-webfont.ttf" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\fontawesome-webfont.woff" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\fontawesome-webfont.woff2" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\fonts\FontAwesome.otf" />
+    <Content Include="FlaskWebProject1\templates\examp.html" />
+    <Content Include="FlaskWebProject1\templates\Header.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\about-us.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\team-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\team-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\team-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\team-4.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\testimonial-author.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\about\testimonial-pic.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\banner\banner-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\banner\banner-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\banner\banner-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-4.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-5.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-6.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-7.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-8.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\blog-9.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\details\blog-author.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\blog\details\blog-details.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\breadcrumb-bg.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-1.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-2.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-3.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-4.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-5.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-6.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-7.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\clients\client-8.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\footer-logo.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\hero\hero-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\hero\hero-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\calendar.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\cart.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\compare.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\heart.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\icon\search.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-4.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-5.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\instagram\instagram-6.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\logo.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\payment.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product-sale.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-10.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-11.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-12.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-13.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-14.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-4.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-5.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-6.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-7.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-8.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\product\product-9.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\details-payment.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\product-big-2.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\product-big-3.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\product-big-4.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\product-big.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\thumb-1.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\thumb-2.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\thumb-3.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shop-details\thumb-4.png" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shopping-cart\cart-1.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shopping-cart\cart-2.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shopping-cart\cart-3.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\img\shopping-cart\cart-4.jpg" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\index.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\bootstrap.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery-3.3.1.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery.countdown.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery.magnific-popup.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery.nice-select.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery.nicescroll.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\jquery.slicknav.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\main.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\mixitup.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\js\owl.carousel.min.js" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\main.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\readme.txt" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\style.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_about.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_base.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_blog-details.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_blog-sidebar.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_blog.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_breadcrumb.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_checkout.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_contact.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_footer.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_header.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_hero.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_home-page.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_mixins.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_product.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_responsive.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_shop-details.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_shop.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_shopping-cart.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\sass\_variable.scss" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\shop-details.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\shop.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\shopping-cart.html" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\bootstrap-4.2.1-dist.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\elegant_font.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\font-awesome-4.7.0.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\jquery-nice-select-1.1.0.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\Magnific-Popup-master.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\OwlCarousel2-2.3.4.zip" />
+    <Content Include="FlaskWebProject1\static\NewFolder1\malefashion\Source\SlickNav-master.zip" />
+    <Content Include="FlaskWebProject1\templates\pr.html" />
+    <Content Include="FlaskWebProject1\templates\shop.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="FlaskWebProject1\static\content\bootstrap.css" />
+    <Content Include="FlaskWebProject1\static\content\bootstrap.min.css" />
+    <Content Include="FlaskWebProject1\static\content\site.css" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="FlaskWebProject1\static\scripts\bootstrap.js" />
+    <Content Include="FlaskWebProject1\static\scripts\bootstrap.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="FlaskWebProject1\static\scripts\respond.js" />
+    <Content Include="FlaskWebProject1\static\scripts\respond.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\_references.js" />
+    <Content Include="FlaskWebProject1\templates\about.html" />
+    <Content Include="FlaskWebProject1\templates\contact.html" />
+    <Content Include="FlaskWebProject1\templates\index.html" />
+    <Content Include="FlaskWebProject1\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="Projct\">
+      <Id>Projct</Id>
+      <Version>3.7</Version>
+      <Description>Projct (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
